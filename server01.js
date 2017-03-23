@@ -27,7 +27,7 @@ readFile('index.html', (err, buff) => {
 		console.log('response', res);
 		return res.end('no luck')
 	}
-	res.end(buff, `<h1>Hello Worm</h1>`)
+	res.end(buff + `<h1>Hello Worm</h1>`)
 	});
 });
 server.listen(8080)
