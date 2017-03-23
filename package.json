@@ -1,0 +1,22 @@
+{
+  "name": "02-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwatson615/02-http-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwatson615/02-http-server/issues"
+  },
+  "homepage": "https://github.com/mwatson615/02-http-server#readme",
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
